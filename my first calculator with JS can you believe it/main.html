@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="master">
+    <div class="inputbar">
+        <div class="topbar">
+            <h1 class="intro">Basic Calculator</h1>
+        </div>
+        <input type="number" id="inp" placeholder="First number"><br>
+        <input type="number" id="inptoo" placeholder="Second number"><br>
+        <div class="buttonbar">
+            <button onclick="calculate()">+</button>
+            <button onclick="difference()">-</button>
+            <button onclick="product()">*</button>
+            <button onclick="quotient()">/</button><br>
+            <button onclick="rootfunc()">&radic;</button>
+            <button onclick="squarefunc()">X<sup>2</sup></button>
+            <button onclick="sinfunc()">sin</button>
+            <button onclick="cosfunc()">cos</button>
+        </div>
+        <h1 id="result"></h1>
+        <h1 id="secondResult"></h1>
+    </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
